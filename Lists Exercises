@@ -1,0 +1,16 @@
+# %%
+furniture = ["table", "chair", "shelf", "sofa", "lamp", "wardrobe"]
+
+# %%
+print(furniture)
+
+# %%
+for item in furniture:
+    if item.lower() == "sofa":
+        print(item)
+        break  # Stop loop once "Sofa" is found
+
+# %%
+
+
+
