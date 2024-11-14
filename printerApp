@@ -1,0 +1,43 @@
+# %%
+creator = "JMP" #string
+print("printer App")
+print("This app is made by: "+creator)
+
+
+
+
+# %%
+number1 = 11
+number2 = 5
+multiplication = number1*number2
+division = number1/number2
+substraction = number1+number2
+
+print("The value of number1 is: ",number1) #printig variable number1
+print("The value of number1 is: ",number2) #printig variable number2
+
+
+print("The value of multiplication is: ",multiplication) #printig variable multiplication
+
+
+print("The value of division is: ",division) #printig variable division
+
+
+print("The value of substraction is: ",substraction) #printig variable substraction
+
+# %% [markdown]
+# 
+
+# %%
+#Simple if statemant
+#input to get input from user
+
+grade = int (input("What is your grade for IOT?"))
+
+if grade >= 1:
+    print("you have successfully passed the course")
+
+#print("second printing")
+
+
+
